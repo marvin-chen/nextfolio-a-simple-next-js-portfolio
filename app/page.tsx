@@ -15,7 +15,7 @@ export default function Page() {
       />
       </a>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Welcome to my Marvin's Website!
+        Welcome to Marvin's Website!
       </h1>
 
       <div className="prose prose-neutral dark:prose-invert">
