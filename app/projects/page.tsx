@@ -1,41 +1,54 @@
 import React from "react";
 import type { Metadata } from "next";
-import { projects } from "./project-data";
 
 export const metadata: Metadata = {
   title: "Projects",
   description: "My Projects",
 };
 
+const projects = [
+  {
+    title: "Signable",
+    description: "ASL flashcard app with side-by-side comparison feature.",
+    techStack: "HTML, CSS, Javascript, Bootstrap, Flask, Jinja2, AWS",
+    github: "https://github.com/ep1401/Signable"
+  },
+  {
+    title: "Pokémon Classifier",
+    description: "Novel multimodal neural network to classify Pokémon using image and numerical data.",
+    techStack: "Matplotlib, Scikit-learn, Web Scraping",
+    github: "https://github.com/marvin-chen/cos-independent-work"
+  },
+  {
+    title: "TigerRetail",
+    description: "User-friendly interface for peer-to-peer commerce on campus.",
+    techStack: "Python, HTML, CSS, Javascript",
+    github: "https://github.com/TigerAppsOrg/TigerReTail"
+  },
+  {
+    title: "Hoagie Mail",
+    description: "Official email distribution system for clubs and organizations, serving 5000+ students.",
+    techStack: "Typescript, CSS, Javascript",
+    github: "https://github.com/HoagieClub/mail"
+  }
+];
+
 export default function Projects() {
   return (
-    <section>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">Projects</h1>
-      <div className="space-y-6">
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-4xl font-bold mb-6">Projects</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {projects.map((project, index) => (
-          <a
-            key={index}
-            href={project.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block group hover:opacity-80 transition-opacity duration-200"
-          >
-            <div className="flex flex-col">
-              <div className="w-full flex justify-between items-baseline">
-                <span className="text-black dark:text-white font-medium tracking-tight">
-                  {project.title}
-                </span>
-                <span className="text-neutral-600 dark:text-neutral-400 tabular-nums text-sm">
-                  {project.year}
-                </span>
-              </div>
-              <p className="prose prose-neutral dark:prose-invert pt-3">
-                {project.description}
-              </p>
-            </div>
-          </a>
+          <div key={index} className="border rounded shadow p-4">
+            <h2 className="text-2xl font-semibold mb-2">{project.title}</h2>
+            <p className="mb-2">{project.description}</p>
+            <p className="text-blue-600 mb-2">Tech Stack: {project.techStack}</p>
+            <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-green-600 hover:underline">
+              GitHub Repository
+            </a>
+          </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 }
