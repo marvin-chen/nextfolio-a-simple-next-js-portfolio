@@ -9,7 +9,7 @@ export default function Fun() {
         <li>My favorite Pokémon is Charizard (which inspired my Pokémon Classifier project).</li>
         <li>I'm an avid hiker and have climbed several peaks in the Appalachian Mountains.</li>
         <li>I'm a huge fan of Korean dramas and use them to practice my Korean language skills.</li>
-        <li>In my free time, I enjoy writing tech blog posts about the latest trends in AI and machine learning.</li>
+        <li>In my free time, I enjoy reading tech blog posts about the latest trends in AI and machine learning. Got to see Fei-Fei Li in person, who inspired my interest in AI. </li>
       </ul>
     </div>
   );

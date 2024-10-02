@@ -41,7 +41,7 @@ export default function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        {metaData.title}
+        Marvin Chen
       </a>
       <style jsx>{`
         @media screen and (max-width: 480px) {
