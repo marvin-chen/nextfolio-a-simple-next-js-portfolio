@@ -1,4 +1,4 @@
-# Marvin Chen's Portfolio
+# Marvin Chen's Portfolio - Work in Progress
 
 This portfolio is built using Nextfolio, a clean, fast, and lightweight portfolio template powered by [Next.js](https://nextjs.org/), [Vercel](https://vercel.com/), and [Tailwind CSS](https://tailwindcss.com/).
 
