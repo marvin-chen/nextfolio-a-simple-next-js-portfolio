@@ -2,6 +2,13 @@ import React from 'react';
 
 const experiences = [
   {
+    title: "Computer Science Undergraduate Course Assistant",
+    company: "Princeton University",
+    date: "Ongoing",
+    description: "Grade and provide feedback for CS courses, including Intro CS and Advanced Programming Techniques.",
+    techStack: "Java, Python, HTML/CSS, JavaScript"
+  },
+  {
     title: "Trading System Development Intern",
     company: "Mirae Asset Securities",
     date: "June 2024 - August 2024",
@@ -14,13 +21,6 @@ const experiences = [
     date: "Winter 2023",
     description: "Performed research and data analysis, compiled salary benchmark reports using Tableau/Excel.",
     techStack: "Tableau, Excel"
-  },
-  {
-    title: "Computer Science Undergraduate Course Assistant",
-    company: "Princeton University",
-    date: "Ongoing",
-    description: "Grade and provide feedback for CS courses, including Intro CS and Advanced Programming Techniques.",
-    techStack: "Java, Python, HTML/CSS, JavaScript"
   }
 ];
 
