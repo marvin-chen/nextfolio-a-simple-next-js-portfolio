@@ -20,10 +20,10 @@ export default function Page() {
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          I'm a third-year Computer Science student at Princeton University with a minor in Finance and East Asian Studies.
+          I'm a third-year Computer Science student at Princeton University with minors in Finance and East Asian Studies.
         </p>
         <p>
-          My technical skills include programming in Python, Java, JavaScript, and C/C++, as well as experience with various data analysis and machine learning tools.
+          My technical skills include programming in Python, Java, JavaScript, and C/C++, as well as experience with web development, data analysis and machine learning tools.
         </p>
         <p>
           I've worked on several projects involving web development, machine learning, and data analysis. These projects have allowed me to apply my skills in real-world scenarios and contribute to open-source communities.

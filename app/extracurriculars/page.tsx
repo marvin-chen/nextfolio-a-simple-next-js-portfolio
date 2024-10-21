@@ -10,6 +10,26 @@ const extracurriculars = [
     title: "Chinese Language Association",
     role: "President and Senior Advisor",
     description: "Expanded club by 200% and onboarded current board members."
+  },
+  {
+    title: "Koko Pops Dance Company",
+    role: "Production Team - Lighting Operator",
+    description: "Controlled the lighting system for a dance performance with 100+ attendees."
+  },
+  {
+    title: "Association of Computing Machinery (ACM)",
+    role: "Member",
+    description: "Regularly practiced competitive programming skills and enhanced data structures and algorithms knowledge."
+  },
+  {
+    title: "BSE Interactor",
+    role: "Student Advisor",
+    description: "Advised 10+ freshmen on the engineering track regarding courses and academic life."
+  },
+  {
+    title: "Community Action Freshman Orientation",
+    role: "Orientation Leader",
+    description: "Guided freshmen through orientation and provided tips about campus life and beyond."
   }
 ];
 
