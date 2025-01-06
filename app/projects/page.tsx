@@ -10,25 +10,25 @@ const projects = [
   {
     title: "Signable",
     description: "ASL flashcard app with side-by-side comparison feature.",
-    techStack: "HTML, CSS, Javascript, Bootstrap, Flask, Jinja2, AWS",
+    techStack: "HTML, CSS, Javascript, Bootstrap, Flask, Jinja2, Docker",
     github: "https://github.com/ep1401/Signable"
   },
   {
     title: "Pokémon Classifier",
     description: "Novel multimodal neural network to classify Pokémon using image and numerical data.",
-    techStack: "Matplotlib, Scikit-learn, Web Scraping",
+    techStack: "Matplotlib, Scikit-learn, Python, TensorFlow",
     github: "https://github.com/marvin-chen/cos-independent-work"
   },
   {
     title: "TigerRetail",
     description: "User-friendly interface for peer-to-peer commerce on campus.",
-    techStack: "Python, HTML, CSS, Javascript",
-    github: "https://github.com/TigerAppsOrg/TigerReTail"
+    techStack: "Svelte, Typescript",
+    github: "https://github.com/tigerappsorg/tigerretail-2"
   },
   {
     title: "Hoagie Mail",
     description: "Official email distribution system for clubs and organizations, serving 5000+ students.",
-    techStack: "Typescript, CSS, Javascript",
+    techStack: "Typescript, Go",
     github: "https://github.com/HoagieClub/mail"
   }
 ];
